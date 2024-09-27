@@ -1,0 +1,40 @@
+#include <stdio.h>
+// defined constant, #define
+
+// coffee ingredients
+#define ESPRESSO_BEANS 8
+#define ESPRESSO_WATER 30
+#define ESPRESSO_MILK 0
+#define ESPRESSO_SYRUP 0
+#define CAPPUCCINO_BEANS 8
+#define CAPPUCCINO_WATER 30
+#define CAPPUCCINO_MILK 70
+#define CAPPUCCINO_SYRUP 0
+#define MOCHA_BEANS 8
+#define MOCHA_WATER 39
+#define MOCHA_MILK 160
+#define MOCHA_SYRUP 30
+
+// coffee prices
+#define ESPRESSO_PRICE 3.5
+#define CAPPUCCINO_PRICE 4.5
+#define MOCHA_PRICE 5.5
+
+// admin constant
+#define ADMIN_PASSWORD "1234"
+
+// threshold for ingredients
+#define LOW_THRESHOLD_BEANS 10
+#define LOW_THRESHOLD_WATER 50
+#define LOW_THRESHOLD_MILK 20
+#define LOW_THRESHOLD_SYRUP 10
+
+// variables
+int main()
+{
+float total_amount = 0.0;
+int coffee_beans = 100;
+int water = 500;
+int milk = 300;
+int chocolate_syrup = 150;
+}
